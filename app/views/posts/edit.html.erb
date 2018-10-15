@@ -1,0 +1,22 @@
+<%= form_tag posts_path do %>
+  <label>Post title:</label><br>
+  <%= text_field_tag :title %><br>
+
+  <label>Post Description</label><br>
+  <%= text_area_tag :description %><br>
+
+  <%= submit_tag "Submit Post" %>
+<% end %>
+
+
+
+<!--  checked everything working on the rails server but couldnt get it to work for learn
+<%= form_for @post do |f| %>
+  <%= f.label 'title' %><br>
+  <%= f.text_field :title %><br>
+
+  <%= f.label 'Post Description' %><br>
+  <%= f.text_area :description %><br>
+
+  <%= f.submit "Submit Post" %>
+<% end %> -->
