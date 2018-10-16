@@ -19,5 +19,10 @@ class PostsController < ApplicationController
     redirect_to post_path(@post)
   end
 
+  def edit
+  end
+
+  def update
+  end
   # add edit and update methods here
 end
